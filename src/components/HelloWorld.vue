@@ -6,7 +6,7 @@
     <h1>{{ msg }}</h1>
     <h1>{{ message }}</h1>
     <h1>{{ count }}</h1>
-    <h1>store counter: {{ getCounter }}</h1>
+    <h1>store counter:: {{ getCounter }}</h1>
     <template v-if="true">
       <h1>route param: {{ getRouteParam }}</h1>
     </template>
